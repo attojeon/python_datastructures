@@ -41,7 +41,7 @@ while running:
     x, y = input("변경할 좌표를 입력하시오(x, y)>>").split(',')
     x = int(x)
     y = int(y)
-    # x, y = map(int, input("".split())) #형변환과 입력값 분할을 동시에 할 경우 map() 사용함.
+    # x, y = map(int, input("").split()) #형변환과 입력값 분할을 동시에 할 경우 map() 사용함.
     val = input("값을 입력하시오>>")
     val = int(val)
 
